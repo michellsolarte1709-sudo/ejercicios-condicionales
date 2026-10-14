@@ -1,16 +1,16 @@
-let bateria = 18;
+let bateria = 35;
 if (bateria < 20) { 
     console.log(" Bateria baja, conecta el  cargador");
 }
 
 
-let total_compra = 500000;
-if (total_compra >= 500000) {
+let total_compra = 75000;
+if (total_compra >= 50000) {
     console.log("Tienes envio gratis");
 }
 
 
-let num = 4;
+let num = 7;
 if (num % 2 == 0) { 
     console.log("El numero es par"); 
 }else{
@@ -18,7 +18,7 @@ if (num % 2 == 0) {
 }
 
 
-let nota = 4;
+let nota = 2;
 if (nota >= 3) {
     console.log("Aprovado");
     }else{
@@ -26,8 +26,8 @@ if (nota >= 3) {
     }
 
 
-let a = 8;
-let b = 5;   
+let a = 12;
+let b = 19;   
 if (a > b){
     console.log("a es mayor");
 }else if (b > a){
@@ -38,7 +38,7 @@ if (a > b){
 
 
 
-let  temperatura = 25;
+let  temperatura = 18;
 if (temperatura < 10){
     console.log ("Hace frio");
 } else if (temperatura < 25){
@@ -49,7 +49,7 @@ if (temperatura < 10){
 
 
 
-let nota100 = 75;
+let nota100 = 85;
 if (nota100 < 0 || nota100 >100) {
     console.log("Nota invalida");
 }else if (nota100 >= 90){
@@ -65,7 +65,7 @@ if (nota100 < 0 || nota100 >100) {
 }
 
 
-let edad = 25;
+let edad = 17;
 let tiene_entrada = true;
 if (edad < 18 ){
     console.log("No puedes entrar");
@@ -95,7 +95,7 @@ if (edad < 18 ){
 
 
 
-    let totalCompra = 120000;
+    let totalCompra = 950000;
     let esCliente = true;
     
     let descuento = 0;
